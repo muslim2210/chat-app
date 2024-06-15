@@ -156,7 +156,7 @@ const ChatDetailComponent = ({ chatId }) => {
         )}
       </div>
 
-      <ScrollArea className="h-[450px] flex flex-col px-5 py-2">
+      <ScrollArea className="h-[420px] flex flex-col px-5 py-5 pb-10">
         {chat?.messages?.map((message, index) => (
           <MessageBox key={index} message={message} currentUser={currentUser} />
         ))}
